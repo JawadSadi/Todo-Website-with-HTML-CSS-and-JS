@@ -8,25 +8,29 @@
   </head>
   <body>
     <section id="todo">
-      <h2>To-do List</h2>
-      <div class="input">
-        <input
-          type="text"
-          class="inputField"
-          id="todoInput"
-          placeholder="Add New Todo"
-        />
-        <button class="btn">Add</button>
+      <div>
+        <h2>To-do List</h2>
+        <div class="input">
+          <input
+            type="text"
+            class="inputField"
+            id="todoInput"
+            placeholder="Add New Todo"
+          />
+          <button class="btn" id="btn">Add</button>
+        </div>
       </div>
       <ul class="scroll">
         <li class="todoList"></li>
       </ul>
-      <div>
-        <hr class="counter" />
-      </div>
-      <div class="counterContainer">
-        <p><span>0</span>items total</p>
-        <button class="deleteButton">Delete All</button>
+      <div class="foot">
+        <div>
+          <hr class="counter" />
+        </div>
+        <div class="counterContainer">
+          <p><span class="todoCount">0</span> items total</p>
+          <button class="deleteButton">Delete All</button>
+        </div>
       </div>
     </section>
     <footer>
@@ -35,5 +39,6 @@
         <p class="author">Jawad Sadiq</p>
       </div>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
